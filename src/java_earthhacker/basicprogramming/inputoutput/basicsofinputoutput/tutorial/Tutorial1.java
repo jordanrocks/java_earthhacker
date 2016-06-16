@@ -1,4 +1,4 @@
-package java_earthhacker.basicprogramming.inputoutput.basicsofinputoutput;
+package java_earthhacker.basicprogramming.inputoutput.basicsofinputoutput.tutorial;
 
 import java.util.Scanner;
 
