@@ -21,12 +21,12 @@ public class RoyAndProfilePicture {
 				dimensionArr[i] = sc.nextLine().split(" ");
 				W = Integer.parseInt(dimensionArr[i][0]);
 				H = Integer.parseInt(dimensionArr[i][1]);
-				if (W < 0 || H < 0 || W > 10000 || H > 10000) {
+				if (W < 1 || H < 1 || W > 10000 || H > 10000) {
 					positiveValidations = false;
 				}
 			}
 			if (positiveValidations
-					&& (L < 1 || N < 1 || L > 10000 || L > 1000)) {
+					&& (L < 1 || N < 1 || L > 10000 || N > 1000)) {
 				positiveValidations = false;
 			}
 			if (positiveValidations) {
